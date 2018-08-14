@@ -4,12 +4,12 @@
 require 'pry'
 #  method called #fizzbuzz that accepts one argument.
 def fizzbuzz(int)
-  if int % 3 == 0
-    puts "Fizz"
+  if int % 15 == 0
+    return "FizzBuzz"
+  elsif int % 3 == 0
+    return "Fizz"
   elsif int % 5 == 0
-    puts "Buzz"
-  elsif int % 15 == 0
-    puts "FizzBuzz"
+    return "Buzz"
   else nil
   binding.pry
   end
