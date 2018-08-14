@@ -1,7 +1,7 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
-require 'pry'
+# require 'pry'
 #  method called #fizzbuzz that accepts one argument.
 def fizzbuzz(int)
   if int % 15 == 0
@@ -11,7 +11,6 @@ def fizzbuzz(int)
   elsif int % 5 == 0
     return "Buzz"
   else nil
-  binding.pry
   end
 end
 fizz_3  = fizzbuzz(3)
