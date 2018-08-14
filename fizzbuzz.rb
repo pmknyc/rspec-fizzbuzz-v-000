@@ -10,11 +10,15 @@ def fizzbuzz(int)
     puts "Buzz"
   elsif int % 15 == 0
     puts "FizzBuzz"
-  #else return nil
+  else nil
   binding.pry
   end
 end
-fizzbuzz(3)
+fizz_3  = fizzbuzz(3)
+fizz_5  = fizzbuzz(5)
+fizz_15 = fizzbuzz(15)
+fizz_4  = fizzbuzz(4)
+
 
 # when call fizzbuzz method & pass number divisible by 3, it should  return the string "Fizz"
 # create fizz
